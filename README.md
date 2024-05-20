@@ -611,12 +611,12 @@ TF/IDF, деревья решений и нейронные сети.
 
 | Компонент системы | Конфиг                                                       | CPU | Количество | Стоимость покупки одной машины, $ |
 |-------------------|--------------------------------------------------------------|-----|------------|-----------------------------------|
-| Auth              | AMD EPYC 9334 - 32 Cores, 2.70/3.90GHz/ CyberServe EPYC EP1  | 32  | 7          | 6 тыс.                            |
-| Search            | AMD EPYC 9754 - 128 Cores, 2.25/3.10GHz/ CyberServe EPYC EP1 | 128 | 10         | 16 тыс.                           |
-| Profile           | AMD EPYC 9754 - 128 Cores, 2.25/3.10GHz/ CyberServe EPYC EP1 | 128 | 10         | 16 тыс.                           |
-| Posts             | AMD EPYC 9754 - 128 Cores, 2.25/3.10GHz/ CyberServe EPYC EP1 | 128 | 16         | 16 тыс.                           |
-| Feed              | AMD EPYC 9334 - 32 Cores, 2.70/3.90GHz/ CyberServe EPYC EP1  | 32  | 5          | 6 тыс.                            |
-| API Gateway       | AMD EPYC 9334 - 32 Cores, 2.70/3.90GHz/ CyberServe EPYC EP1  | 32  | 7          | 6 тыс.                            |
+| Auth              | AMD EPYC 9334 - 32 Cores, 2.70/3.90GHz/ CyberServe EPYC EP1  | 32  | 14         | 6 тыс.                            |
+| Search            | AMD EPYC 9754 - 128 Cores, 2.25/3.10GHz/ CyberServe EPYC EP1 | 128 | 20         | 16 тыс.                           |
+| Profile           | AMD EPYC 9754 - 128 Cores, 2.25/3.10GHz/ CyberServe EPYC EP1 | 128 | 20         | 16 тыс.                           |
+| Posts             | AMD EPYC 9754 - 128 Cores, 2.25/3.10GHz/ CyberServe EPYC EP1 | 128 | 32         | 16 тыс.                           |
+| Feed              | AMD EPYC 9334 - 32 Cores, 2.70/3.90GHz/ CyberServe EPYC EP1  | 32  | 10         | 6 тыс.                            |
+| API Gateway       | AMD EPYC 9334 - 32 Cores, 2.70/3.90GHz/ CyberServe EPYC EP1  | 32  | 14         | 6 тыс.                            |
 | Nginx             | AMD EPYC 7443P/132Gb/NVme 2250Gb/1*400Gb                     | 24  | 312        | 7 тыс.                            |
 | PostgreSQL        | AMD EPYC 7343/232Gb/Sata3 24x7.6TB/21Gb                      | 16  | 500        | 12 тыс.                           |
 | Redis             | AMD Ryzen 7 7700X/432Gb/Nvme 1Tb/210Gb                       | 8   | 25         | 3 тыс.                            |
@@ -624,7 +624,7 @@ TF/IDF, деревья решений и нейронные сети.
 В [исследовании](https://www.nginx.com/blog/testing-the-performance-of-nginx-and-nginx-plus-web-servers/) nginx сказано, что сервер с 24 CPU выдерживает 10,274 HTTPS CPS
 Выходит, что необходимо 312 серверов.  
 
-Таким образом, стоимость покупки основных аппаратных ресурсов будет примерно равна 10 млн.$. Обслуживание файлов пользователей обойдётся за 5 лет ещё примерно в такую же сумму. 
+Таким образом, стоимость покупки основных аппаратных ресурсов будет примерно равна 12 млн.$. Обслуживание файлов пользователей обойдётся за 5 лет ещё примерно в такую же сумму. 
 
 ## Источники: <a name="Источники"></a>
 1. [Instagram statistics 2023](https://www.zippia.com/advice/instagram-statistics/#:~:text=As%20of%202022%2C%20Instagram%20has,posted%20on%20Instagram%20each%20day.)
